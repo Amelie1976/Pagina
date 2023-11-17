@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Christus Muguerza - Servicios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Christus Muguerza</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="servicios">
+        <h2>Servicios</h2>
+        <div class="servicios-content container">
+            <div class="servicio-1">
+                <i class="fa-solid fa-baby"></i>
+                <h3>Ginecología y Obstetricia</h3>
+                <p>Descripción del servicio de Ginecología y Obstetricia.</p>
+            </div>
+
+            <div class="servicio-1">
+                <i class="fa-solid fa-hospital"></i>
+                <h3>Cardiología</h3>
+                <p>Descripción del servicio de Cardiología.</p>
+            </div>
+
+            <div class="servicio-1">
+                <i class="fa-solid fa-lungs"></i>
+                <h3>Neumología</h3>
+                <p>Descripción del servicio de Neumología.</p>
+            </div>
+
+            <div class="servicio-1">
+                <i class="fa-solid fa-bone"></i>
+                <h3>Traumatología y Ortopedia</h3>
+                <p>Descripción del servicio de Traumatología y Ortopedia.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="formulario container">
+        <!-- Sección de formulario similar al código anterior -->
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <a href="#" class="logo">Christus Muguerza</a>
+            </div>
+
+            <div class="link">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <?php
+        include("send.php");
+    ?>
+
+    <script>
+        function myFunction() {
+            window.location.href="http://localhost/pagina"
+        }
+    </script>
+
+</body>
+</html>
+
